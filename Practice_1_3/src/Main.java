@@ -43,27 +43,7 @@ public class Main{
 
 
             students[i] = new Student(last_name, name, middleName, studentID, course, country, sex, mark);
-
-
-
-
-            //Student student = new Student();
-           /* System.out.println("Enter Last Name: ");
-            student[i].setLast_name(scanner.nextLine());
-            System.out.println("Enter Name: ");
-            student.setName(scanner.nextLine());
-            System.out.println("Enter Middle Name: ");
-            student.setMiddleName(scanner.nextLine());
-            System.out.println("Enter StudentID: ");
-            student.setStudentID(Integer.parseInt(scanner.nextLine()));
-            System.out.println("Enter course: ");
-            student.setCourse(Integer.parseInt(scanner.nextLine()));
-            System.out.println("Enter country: ");
-            student.setCounrty(scanner.nextLine());
-            System.out.println("Enter sex: ");
-            student.setSex(scanner.nextLine());
-            System.out.println("Enter mark: ");
-            student.setMark(Double.parseDouble(scanner.nextLine()));*/
+            
         }
 
         for(int i = 0; i < students.length; i++){
